@@ -1,0 +1,12 @@
+.NewTodoForm {
+    margin-bottom: 30px;
+}
+
+.NewTodoForm-inputGroup {
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+input {
+    min-width: 300px;
+}

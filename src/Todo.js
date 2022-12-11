@@ -1,10 +1,13 @@
 import React from "react"
+import "./Todo.css"
 
-const Todo = ({ id, todo, completed }) => {
+const Todo = ({ id, todo, completeTodo }) => {
+    const handleDelete = () => completeTodo(id);
+
     return (
         <li className="Todo">
             {todo}
-            <span className="Todo-delete">X</span>
+            <span className="Todo-delete" onClick={handleDelete}>X</span>
         </li>
     )
 }
